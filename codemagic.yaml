@@ -5,6 +5,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: development
+        bundle_identifier: com.fattracker.app
     scripts:
       - name: Install dependencies
         script: |
@@ -17,7 +18,3 @@ workflows:
           npx cap sync ios
     artifacts:
       - build/ios/ipa/*.ipa
-    publishing:
-      email:
-        recipients:
-          - 3qzemra65r5o@mail.ru
