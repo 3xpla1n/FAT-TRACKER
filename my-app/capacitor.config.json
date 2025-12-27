@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "FAT TRACKER",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}

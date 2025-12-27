@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "FAT TRACKER",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
